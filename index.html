@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
-  <title>Website Under Construction</title>
+    <meta charset="UTF-8">
+    <title>Connect Three</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Website Under Construction</h1>
-    <p>We're currently working on our website. Please check back soon!</p>
-  </div>
+    <h1>Connect Three</h1>
+
+    <!-- Game board -->
+    <table>
+    <!-- ROW 0 -->
+    <tr>
+        <td id="cell00" onclick="cellClicked(0,0)"></td>
+        <td id="cell01" onclick="cellClicked(0,1)"></td>
+        <td id="cell02" onclick="cellClicked(0,2)"></td>
+    </tr>
+    <!-- ROW 1 -->
+    <tr>
+        <td id="cell10" onclick="cellClicked(1,0)"></td>
+        <td id="cell11" onclick="cellClicked(1,1)"></td>
+        <td id="cell12" onclick="cellClicked(1,2)"></td>
+    </tr>
+    <!-- ROW 2 -->
+    <tr>
+        <td id="cell20" onclick="cellClicked(2,0)"></td>
+        <td id="cell21" onclick="cellClicked(2,1)"></td>
+        <td id="cell22" onclick="cellClicked(2,2)"></td>
+    </tr>
+    <!-- ROW 3 -->
+    <tr>
+        <td id="cell30" onclick="cellClicked(3,0)"></td>
+        <td id="cell31" onclick="cellClicked(3,1)"></td>
+        <td id="cell32" onclick="cellClicked(3,2)"></td>
+    </tr>
+    <!-- ROW 4 -->
+    <tr>
+        <td id="cell40" onclick="cellClicked(4,0)"></td>
+        <td id="cell41" onclick="cellClicked(4,1)"></td>
+        <td id="cell42" onclick="cellClicked(4,2)"></td>
+    </tr>
+    <!-- ROW 5 -->
+    <tr>
+        <td id="cell50" onclick="cellClicked(5,0)"></td>
+        <td id="cell51" onclick="cellClicked(5,1)"></td>
+        <td id="cell52" onclick="cellClicked(5,2)"></td>
+    </tr>
+</table>
+
+    <!-- Game message -->
+    <p id="message"></p>
+
+    <button onclick="resetGame()">Reset Game</button>
+    
+    <div id="fallingChip"></div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
