@@ -1,0 +1,162 @@
+/* =====================
+   BASIC RESET
+===================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+    background-color: #1e88e5; /* blue accent */
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* =====================
+   MAIN CONTENT CARD
+===================== */
+.cheatsheet {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* =====================
+   HEADINGS
+===================== */
+h1 {
+    text-align: center;
+    color: #1e88e5;
+}
+
+h2, h3 {
+    color: #1565c0;
+    margin-top: 30px;
+}
+
+/* =====================
+   TEXT
+===================== */
+p {
+    line-height: 1.6;
+}
+
+/* =====================
+   IMAGES
+===================== */
+img {
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* =====================
+   LISTS
+===================== */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* =====================
+   TABLE
+===================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* =====================
+   CHEAT SHEET STYLES
+===================== */
+.cheatsheet h3 + p {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.cheatsheet p + p {
+    background: lightgrey; /* light grey */
+    padding: 8px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* =====================
+   MOBILE FRIENDLY
+===================== */
+@media (max-width: 768px) {
+    .navbar a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cheatsheet {
+        margin: 15px;
+        padding: 20px;
+    }
+}
+
+/* =====================
+   BACK TO TOP LINK
+===================== */
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    color: #1e88e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
