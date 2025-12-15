@@ -1,2 +1,2 @@
 # tasha524.github.com
-This is a practice project 
+This is my final project for Tech1101
