@@ -1,0 +1,170 @@
+/*for the whole page*/
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* navagation */
+.navbar {
+    background-color: #1e88e5; 
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* main style of the pages*/
+.cheatsheet {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #1e88e5;
+}
+
+h2, h3 {
+    color: #1565c0;
+    margin-top: 30px;
+}
+
+/* paragraph styling*/
+p {
+    line-height: 1.6;
+}
+
+/* image styleing */
+img {
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/*list style */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/*style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* cheatsheet style*/
+.cheatsheet h3 + p {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.cheatsheet p + p {
+    background: lightgrey; /* light grey */
+    padding: 8px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* added responsiveness*/
+@media (max-width: 768px) {
+    .navbar a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cheatsheet {
+        margin: 15px;
+        padding: 20px;
+    }
+}
+
+/* back to top link */
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    color: #1e88e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.buttonNav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;          /* space between buttons */
+    margin-top: 20px;
+}
+
+
+button:hover {
+    background-color: lightgrey;
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+
+.helpful-link {
+      display: block;
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    
+}
